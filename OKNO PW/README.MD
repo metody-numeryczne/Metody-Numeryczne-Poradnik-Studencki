@@ -1,2 +1,2 @@
-# Materiały z Politechnika Warszawska - OKNA
+# Materiały - Politechnika Warszawska - OKNO
 Materiały z metod numerycznych sporządziła Pani Dr Irena Musiał-Walczak na użytek studentów Ośrodka Kształcenia na Odległość (OKNO). Według mnie jest to dobre źródło wiedzy jeśli chodzi o podstawy. Zagadnienia są wytumaczone możliwie jasno, choć zdarzają się błędy. Zamieszczone są tam również szczegółowe przykładowe rozwiązania zadań, co jest dużym plusem. Dodatkowo przesyłam projekty, jakie muszą wykonywać studenci wspomnianej uczelni, żeby zaliczyć przedmiot. Ich autorem jest Robert Szmurło. W przypadku problemów z wykonaniem projektów można się zwrócić do mnie z prośbą o pomoc.
