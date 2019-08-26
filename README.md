@@ -23,98 +23,98 @@ Dostępne w Polsce podręczniki analizy numerycznej, jak (włączone do bibliogr
     * 1.2. Rząd zbieżności i inne podstawowe pojęcia
     * 1.3. Równania różnicowe
 2. Arytmetyka komputerowa
-* 2.0. Wstęp
-* 2.1. Arytmetyka zmiennopozycyjna
-* 2.2. Błędy bezwzględne i względne. Utrata cyfr znaczących
-* 2.3. Algorytmy stabilne i miestabilne. Uwarunkowanie
+    * 2.0. Wstęp
+    * 2.1. Arytmetyka zmiennopozycyjna
+    * 2.2. Błędy bezwzględne i względne. Utrata cyfr znaczących
+    * 2.3. Algorytmy stabilne i miestabilne. Uwarunkowanie
 3. Rozwiązywanie równań nieliniowych
-3.0. Wstęp
-3.1. Metoda bisekcji (połowienia przedziału)
-3.2. Metoda Newtona
-3.3. Metoda siecznych
-3.4. Punkty stałe i metody iteracyjne
-3.5. Obliczanie pierwiastków wielomianów
-3.6. Metody homotopii i kontynuacji
+    * 3.0. Wstęp
+    * 3.1. Metoda bisekcji (połowienia przedziału)
+    * 3.2. Metoda Newtona
+    * 3.3. Metoda siecznych
+    * 3.4. Punkty stałe i metody iteracyjne
+    * 3.5. Obliczanie pierwiastków wielomianów
+    * 3.6. Metody homotopii i kontynuacji
 4. Rozwiązywanie układów równań liniowych
-4.0. Wstęp
-4.1. Algebra macierzy
-4.2. Rozkłady LU
-4.3. Eliminacja Gaussa z wyborem elementów głównych
-4.4. Normy i analiza błędów
-4.5. Szeregi Neumanna i poprawianie iteracyjne
-4.6. Rozwiązywanie układów metodami iteracyjnymi
-4.7. Metody najszybszego spadku i sprzężonych gradientów
-4.8. Analiza błędów zaokrągleń w metodzie eliminacji Gaussa
+    * 4.0. Wstęp
+    * 4.1. Algebra macierzy
+    * 4.2. Rozkłady LU
+    * 4.3. Eliminacja Gaussa z wyborem elementów głównych
+    * 4.4. Normy i analiza błędów
+    * 4.5. Szeregi Neumanna i poprawianie iteracyjne
+    * 4.6. Rozwiązywanie układów metodami iteracyjnymi
+    * 4.7. Metody najszybszego spadku i sprzężonych gradientów
+    * 4.8. Analiza błędów zaokrągleń w metodzie eliminacji Gaussa
 5. Inne działy numerycznej algebry liniowej
-5.0. Przegląd podstawowych pojęć
-5.1. Metoda potęgowa dla zadania własnego
-5.2. Twierdzenia Schura i Gerszgorina
-5.3. Ortogonalizacja i zadanie najmniejszych kwadratów
-5.4. Rozkład względem wartości szczególnych i pseudoodwrotn
-5.5. Metoda QR obliczania wartości własnych
+    * 5.0. Przegląd podstawowych pojęć
+    * 5.1. Metoda potęgowa dla zadania własnego
+    * 5.2. Twierdzenia Schura i Gerszgorina
+    * 5.3. Ortogonalizacja i zadanie najmniejszych kwadratów
+    * 5.4. Rozkład względem wartości szczególnych i pseudoodwrotn
+    * 5.5. Metoda QR obliczania wartości własnych
 6. Aproksymacja funkcji
-6.0. Wstęp
-6.1. Interpolacja wielomianowa
-6.2. Ilorazy różnicowe
-6.3. Interpolacja Hermite’a
-6.4. Interpolujące funkcje sklejane
-6.5. Podstawy teorii funkcji B-sklejanych
-6.6. Zastosowania funkcji B-sklejanych
-6.7. Szeregi potęgowe
-6.8. Aproksymacja średniokwadratowa
-6.9. Aproksymacja jednostajna
-6.10. Interpolacja funkcji wielu zmiennych
-6.11. Aproksymacja wymierna
-6.12. Interpolacja trygonometryczna
-6.13. Szybkie przekształcenie Fouriera
-6.14. Metody adaptacyjne
+    * 6.0. Wstęp
+    * 6.1. Interpolacja wielomianowa
+    * 6.2. Ilorazy różnicowe
+    * 6.3. Interpolacja Hermite’a
+    * 6.4. Interpolujące funkcje sklejane
+    * 6.5. Podstawy teorii funkcji B-sklejanych
+    * 6.6. Zastosowania funkcji B-sklejanych
+    * 6.7. Szeregi potęgowe
+    * 6.8. Aproksymacja średniokwadratowa
+    * 6.9. Aproksymacja jednostajna
+    * 6.10. Interpolacja funkcji wielu zmiennych
+    * 6.11. Aproksymacja wymierna
+    * 6.12. Interpolacja trygonometryczna
+    * 6.13. Szybkie przekształcenie Fouriera
+    * 6.14. Metody adaptacyjne
 7. Różniczkowanie i całkowanie numeryczne
-7.1. Różniczkowanie numeryczne i ekstrapolacja Richardsona
-7.2. Interpolacja w całkowaniu numerycznym
-7.3. Kwadratury Gaussa
-7.4. Wielomiany Bernoulliego i wzór Eulera-Maclaurina
-7.5. Metoda Romberga
-7.6. Metody adaptacyjne całkowania
-7.7. Teoria Sarda aproksymacji funkcjonałów
+    * 7.1. Różniczkowanie numeryczne i ekstrapolacja Richardsona
+    * 7.2. Interpolacja w całkowaniu numerycznym
+    * 7.3. Kwadratury Gaussa
+    * 7.4. Wielomiany Bernoulliego i wzór Eulera-Maclaurina
+    * 7.5. Metoda Romberga
+    * 7.6. Metody adaptacyjne całkowania
+    * 7.7. Teoria Sarda aproksymacji funkcjonałów
 8. Rozwiązywanie numeryczne równań różniczkowych zwyczajnych
-8.0. Wstęp
-8.1. Istnienie i jednoznaczność rozwiązań
-8.2. Zastosowanie wzoru Taylora
-8.3. Metody Rungego-Kutty
-8.4. Metody wielokrokowe
-8.5. Błędy lokalne i globalne. Stabilność
-8.6. Układy równań. Równania wyższego rzędu
-8.7. Zagadnienia brzegowe
-8.8. Zagadnienia brzegowe: metody strzału
-8.9. Zagadnienia brzegowe: różnice skończone
-8.10. Zagadnienia brzegowe: kollokacja
-8.11. Układy równań różniczkowych liniowych
-8.12. Równania sztywne
+    * 8.0. Wstęp
+    * 8.1. Istnienie i jednoznaczność rozwiązań
+    * 8.2. Zastosowanie wzoru Taylora
+    * 8.3. Metody Rungego-Kutty
+    * 8.4. Metody wielokrokowe
+    * 8.5. Błędy lokalne i globalne. Stabilność
+    * 8.6. Układy równań. Równania wyższego rzędu
+    * 8.7. Zagadnienia brzegowe
+    * 8.8. Zagadnienia brzegowe: metody strzału
+    * 8.9. Zagadnienia brzegowe: różnice skończone
+    * 8.10. Zagadnienia brzegowe: kollokacja
+    * 8.11. Układy równań różniczkowych liniowych
+    * 8.12. Równania sztywne
 9. Rozwiązywanie numeryczne równań różniczkowych cząstkowych
-9.0. Wstęp 
-9.1. Równania paraboliczne: metody jawne
-9.2. Równania paraboliczne: metody niejawne
-9.3. Zadania niezależne od czasu: różnice skończone
-9.4. Zadania niezależne od czasu: metody Galerkina
-9.5. Równania rzędu pierwszego: charakterystyki
-9.6. Równania quasi-liniowe rzędu drugiego: charakterystyki
-9.7. Inne metody dla zagadnień hiperbolicznych
-9.8. Metody wielosiatkowe
-9.9. Szybkie metody dla równania Poissona
+    * 9.0. Wstęp 
+    * 9.1. Równania paraboliczne: metody jawne
+    * 9.2. Równania paraboliczne: metody niejawne
+    * 9.3. Zadania niezależne od czasu: różnice skończone
+    * 9.4. Zadania niezależne od czasu: metody Galerkina
+    * 9.5. Równania rzędu pierwszego: charakterystyki
+    * 9.6. Równania quasi-liniowe rzędu drugiego: charakterystyki
+    * 9.7. Inne metody dla zagadnień hiperbolicznych
+    * 9.8. Metody wielosiatkowe
+    * 9.9. Szybkie metody dla równania Poissona
 10. Programowanie liniowe i pokrewne zagadnienia
-10.1. Wypukłość i nierówności liniowe
-10.2. Nierówności liniowe
-10.3. Programowanie liniowe
-10.4. Algorytm sympleks
+    * 10.1. Wypukłość i nierówności liniowe
+    * 10.2. Nierówności liniowe
+    * 10.3. Programowanie liniowe
+    * 10.4. Algorytm sympleks
 11. Optymalizacja
-11.0. Wstęp
-11.1. Przypadek jednej zmiennej
-11.2. Metody spadku
-11.3. Analiza funkcji kwadratowych celu
-11.4. Algorytmy aproksymacji kwadratowej
-11.5. Algorytm Neldera-Meada
-11.6. Wyżarzanie symulowane
-11.7. Algorytmy genetyczne
-11.8. Programowanie wypukłe
-11.9. Minimalizacja z warunkami
-11.10. Optymalizacja Pareto
+    * 11.0. Wstęp
+    * 11.1. Przypadek jednej zmiennej
+    * 11.2. Metody spadku
+    * 11.3. Analiza funkcji kwadratowych celu
+    * 11.4. Algorytmy aproksymacji kwadratowej
+    * 11.5. Algorytm Neldera-Meada
+    * 11.6. Wyżarzanie symulowane
+    * 11.7. Algorytmy genetyczne
+    * 11.8. Programowanie wypukłe
+    * 11.9. Minimalizacja z warunkami
+    * 11.10. Optymalizacja Pareto
