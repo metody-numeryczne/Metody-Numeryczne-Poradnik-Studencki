@@ -18,10 +18,10 @@ Dostępne w Polsce podręczniki analizy numerycznej, jak (włączone do bibliogr
 
 #### Spis treści
 1. Narzędzia matematyczne
-1.0. Wstęp
-1.1. Podstawowe pojęcia i wzór Taylora
-1.2. Rząd zbieżności i inne podstawowe pojęcia
-1.3. Równania różnicowe
+    1.0. Wstęp
+    1.1. Podstawowe pojęcia i wzór Taylora
+    1.2. Rząd zbieżności i inne podstawowe pojęcia
+    1.3. Równania różnicowe
 2. Arytmetyka komputerowa
 2.0. Wstęp
 2.1. Arytmetyka zmiennopozycyjna
