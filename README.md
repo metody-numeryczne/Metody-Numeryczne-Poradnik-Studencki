@@ -4,8 +4,8 @@ Na wielu polskich uczelniach wykłada się przedmiot jakim są metody numeryczne
 
 Można się ze mną skontaktować drogą mailową: metody.numeryczne.korepetycje@gmail.com. Chętnie pomogę przy zagadnieniach z metod numerycznych, matematyki, informatyki, programowania. Jeśli dysponujesz ciekawymi materiałami lub informacjami również możesz napisać.
 
-## Książki
+## Literatura przedmiotowa
 Na polskim rynku istnieje kilka książek tłumaczących w przystępny sposób zagadnienia z dziedziny metod numerycznych. Z książek tych często korzystają wykładowcy nie tylko w celu wytłumaczenia materiału, ale również by zainspirować się przy układaniu zadań, bo zazwyczaj na końcu każdego rozdziału znajdują się zadania do samodzielnego rozwiązania, a także można się spotkać z przykładami już rozwiązanymi. Wymienię teraz najpopularniejsze i najużyteczniejsze pozycje książkowe, oraz trochę o nich opowiem.
 
 ### Analiza numeryczna - Kincaid David, Cheney Ward
-Pozycja dydaktyków z Uniwersytetu Teksańskiego w Austin szczegółowo wyjaśnia wszystkie najbardziej znane zagadnienia.
+Pozycja dydaktyków z Uniwersytetu Teksańskiego w Austin szczegółowo wyjaśnia większość najbardziej znanych zagadnień. Napisana nietrudnym językiem, a ponadtwo zawiera przykłady, które pomogą przy rozwiązaywaniu podobnych zadań, a także algorytmy zapisane w pseudokodzie, co pomoże przy pisaniu programów komputerowych. Omawianą książkę umieszczam na pierwszym miejscu, gdyż według mnie jest najbardziej pomocna. Sporo wykładowców ją poleca. Niestety, jeśli by ktoś chciał ją kupić to będzie musiał się trochę naszukać, a też wydać nie tak mało pieniędzy, bo jeśli już gdzieś pojawiają się oferty to jedynie takie z ceną powyżej 100 zł. Na szczęście książka ta jest łatwo dostępna w formie cyfrowej, można ją znaleźć na stronie Instytutu Matematycznego Polskiej Akademii Nauk, wystarczy wpisać w wyszukiwarkę frazę "Kincaid pdf", a jako pierwszy rezultat otrzymamy link do e-booka.
