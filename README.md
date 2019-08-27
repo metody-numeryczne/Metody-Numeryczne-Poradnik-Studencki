@@ -137,5 +137,5 @@ Celem autorów niniejszej książki jest wprowadzenie Czytelnika w dział matema
 1. Interpolacja
     * 1.1. Sformułowanie zagadnienia interpolacji
     * 1.2. Interpolacja za pomocą wielomianów
-        * 1.2.1. Wzór interpolacyjny Lagrange’a
-        * 1.2.2. Oszacowanie błędu wzoru interpolacyjnego
+        ** 1.2.1. Wzór interpolacyjny Lagrange’a
+        ** 1.2.2. Oszacowanie błędu wzoru interpolacyjnego
