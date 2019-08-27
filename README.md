@@ -118,3 +118,153 @@ Dostępne w Polsce podręczniki analizy numerycznej, jak (włączone do bibliogr
     * 11.8. Programowanie wypukłe
     * 11.9. Minimalizacja z warunkami
     * 11.10. Optymalizacja Pareto
+
+### Metody numeryczne - Fortuna Zenon, Macukow Bohdan, Wąsowski Janusz
+Książka ta jest nawet popularniejsza od Analizy numerycznej Kincaida i Cheney'a. Jej pierwsze wydanie ukazało się w roku 1982. W roku 1993 wydana po raz drugi, gdzie poprawiono zauważone błędy i nieścisłości. Później wznawiano wydanie pięciokrotnie jednak już bez dokonywania poprawek, a można się w niej doszukać kilka błędów, np. w rozwiązaniach zadań. Tak czy inaczej samo to, że książka była wydawana wielokrotnie świadczy o tym, że cieszy się ona uznaniem wśród znawców tematyki metod numerycznych. Wykładowcy często umieszczają ją w bibliografii przedmiotowej. Oprócz dokładnego wytłumaczenia zagadnień w książce można znaleźć przykłady, zadania i odpowiedzi do niektórych zadań. Zamiast pseudokodu mamy tutaj fragmenty kodu w języku Pascal, co może być lekkim utrudnieniem zważywszy na fakt, że w obecnych czasach język ten jest rzadko używany, nawet na niewielu polskich uczelniach jest nauczany i to tych mniej uznanych, żeby nie powiedzieć słabych. Oprócz tego można też spotkać schematy blokowe algorytmów.
+
+#### Opis wydawcy
+W podręczniku podano wybrane metody stosowane przy obliczeniach komputerowych. Omówiono tu niektóre z ważniejszych metod interpolacyjnych i aproksymacyjnych, całkowanie numeryczne, metody rozwiązywania układów algebraicznych równań liniowych oraz równań różniczkowych. Zamieszczono wiele algorytmów obliczeniowych wraz z oceną ich efektywności. Materiał teoretyczny jest ilustrowany licznymi przykładami rachunkowymi, przykładami programów w językach Fortran i Pascal i ich schematów blokowych. Podręcznik jest przeznaczony dla studentów kierunków: elektronika, informatyka i telekomunikacja. Mogą z niego także korzystać studenci i inżynierowie innych specjalności.
+
+#### Przedmowa autorów
+Celem autorów niniejszej książki jest wprowadzenie Czytelnika w dział matematyki stosowanej, zwanej metodami numerycznymi. Gwałtowny rozwój techniki obliczeniowej spowodował pojawienie się istnej lawiny metod, umożliwiających rozwiązywanie różnorodnych problemów z dziedziny techniki, medycyny, ekonomii itp. przy użyciu komputerów. Należy zdawać sobie sprawę z tego, że w zasadzie każde bardziej złożone zagadnienie wymaga opracowania indywidualnej metody jego rozwiązywania na komputerze. Niekiedy jednak różnica użytej metody w stosunku do metody standardowej polega na drobnych pozornie zmianach, takich jak nietypowe operowanie pamięcią operacyjną, zastosowanie przy pewnych pomocniczych obliczeniach podwójnej precyzji, zastosowanie innych testów zatrzymań. Zmiany takie mogą przesądzić na przykład o możliwości rozwiązania danego zagadnienia za pomocą aktualnie dostępnego komputera. Bywają jednak zagadnienia, do których rozwiązania należy opracować istotnie nową metodę. Powyższe względy powodują, iż stosowanie metod numerycznych jest po trosze sztuką, wymagającą dużej wprawy. Autorzy tej książki postawili sobie za cel przedstawienie wybranych działów metod numerycznych w ten sposób, by z jednej strony umożliwić Czytelnikowi rozwiązywanie typowych zagadnień — rozwiązywanie równań różniczkowych, całkowanie, rozwiązywanie układów równań algebraicznych — z drugiej zaś strony przez dokładniejsze omówienie działu algebry liniowej umożliwić samodzielne opracowywanie bardziej wyspecjalizowanych metod. Zakładamy, że Czytelnik jest obeznany z podstawowymi działami matematyki, jak algebra, teoria funkcji, rachunek różniczkowy i całkowy. Ponadto do właściwego zrozumienia istoty większości algorytmów niezbędna jest umiejętność programowania wjęzyku Pascal (lub Fortran). W obecnym, drugim wydaniu, postaraliśmy się usunąć wszystkie dostrzeżone lub zasygnalizowane przez Czytelników błędy i niedokładności. Ponieważ od pierwszego wydania minęło ponad 10 lat, a w okresie tym nastąpiła prawdziwa rewolucja w sprzęcie komputerowym oraz dostępnym oprogramowaniu, w obecnym wydaniu większość przykładowych programów została przerobiona na język Pascal. W okresie tym ukazało się także na rynku wydawniczym kilka nowych, cennych pozycji mających charakter podręczników akademickich i książki te zamieściliśmy jako dodatkowe pozycje literatury.
+
+#### Spis treści
+0. Wstępne uwagi o obliczeniach numerycznych
+0.1. Własności zapisu zmiennopozycyjnego
+0.2. Błędy obliczeń
+0.3. Oszacowania błędów zaokrągleń
+0.4. Uwarunkowanie zadania i stabilność algorytmów
+1. Interpolacja
+1.1. Sformułowanie zagadnienia interpolacji
+1.2. Interpolacja za pomocą wielomianów
+1.2.1. Wzór interpolacyjny Lagranjge’a
+1.2.2. Oszacowanie błędu wzoru interpolacyjnego
+1.2.3. Problem optymalnego doboru węzłów interpolacji
+1.2.4. Wzór interpolacyjny Newtona dla nierównych odstępów argumentu
+1.2.5. Różnice progresywne i różnice wsteczne
+1.2.6. Wzory interpolacyjne Newtona dla równoodległych wartości argumentu
+1.2.7. Zbieżność procesów interpolacyjnych
+1.2.8. Uwagi końcowe
+1.3. Interpolacja za pomocą funkcji sklejanych
+1.3.1. Określenie funkcji sklejanych
+1.3.2. Interpolacyjne funkcje sklejane stopnia trzeciego
+2. Aproksymacja
+2.1. Wstęp
+2.2. Aproksymacja średniokwadratowa
+2.2.1. Aproksymacja wielomianowa
+2.2.2. Aproksymacja za pomocą wielomianów ortogonalnych
+2.2.3. Aproksymacja trygonometryczna
+2.2.4. Szybka transformacja Fouriera
+2.2.5. Aproksymacja za pomocą funkcji sklejanych
+2.3. Aproksymacja jednostajna
+2.3.1. Metoda szeregów potęgowych
+2.3.2. Przybliżenia Padego
+2.3.3. Szeregi Czebyszewa
+2.4. Uwagi końcowe
+3. Przybliżone rozwiązywanie równań nieliniowych i ich układów
+3.1. Jedno równanie z jedną niewiadomą
+3.1.1. Metoda połowienia
+3.1.2. Reguła falsi i metoda siecznych
+3.1.3. Metoda Newtona. Metody zmodyfikowane dla pierwiastków wielokrotnych
+3.2. Metody poszukiwania zer wielomianów
+3.2.1. Liczba pierwiastków rzeczywistych
+3.2.2. Lokalizacja zer rzeczywistych
+3.2.3. Metody przybliżonego obliczania zer rzeczywistych wielomianu
+3.2.4. Lokalizacja zer zespolonych
+3.2.5. Metody przybliżonego obliczania zer zespolonych wielomian
+3.3. Uwagi o efektywności metod przybliżonego obliczania pierwiastków
+3.4. Układy równań nieliniowych
+3.4.1. Ogólne metody iteracyjne
+3.4.2. Metoda Newtona
+3.4.3. Metoda siecznych
+3.5. Poszukiwanie minimów funkcji jednej zmiennej
+3.5.1. Metody podziału
+3.5.2. Metoda optymalnych podziałów
+3.5.3. Metoda złotego podziału
+4. Całkowanie numeryczne
+4.1. Wstęp
+4.1.1. Uwagi ogólne o całkowaniu numerycznym
+4.1.2. Ogólny wzór całkowania numerycznego
+4.2. Kwadratury z ustalonymi węzłami
+4.2.1. Kwadratury Newtona-Cotesa
+4.2.2. Kwadratury złożone Newtona-Cotesa
+4.2.3. Metoda Romberga
+4.3. Kwadratury Gaussa i kwadratury złożone Gaussa
+4.3.1. Kwadratury Gaussa
+4.3.2. Kwadratury złożone Gaussa
+4.4. Uwagi końcowe
+5. Rozwiązywanie układów algebraicznych równań liniowych
+5.1. Wstęp
+5.2. Pojęcia podstawowe
+5.3. Metody dokładne
+5.3.1. Analiza błędów rozwiązywania
+5.3.2. Układy równań z macierzą trójkątną
+5.3.3. Metoda eliminacji Gaussa
+5.3.4. Metoda eliminacji Jordana
+5.3.5. Układy z macierzą symetryczną. Rozkłady LDLT i LLT
+5.3.6. Układy z macierzą trójdiagonalną
+5.3.7. Układy równań z macierzą zbliżoną do trójdiagonalnej
+5.3.8. Obliczanie wyznacznika i odwracanie macierzy
+5.3.9. Iteracyjne poprawianie rozwiązania
+5.4. Metody iteracyjne
+5.4.1. Metoda Jacobiego
+5.4.2. Metoda Gaussa-Seidla
+5.4.3. Metoda Czebyszewa
+5.4.4. Nakład obliczeń i testy stopu
+5.5. Układy równań z macierzami rzadkimi
+5.5.1. Organizacja pamięci
+5.5.2. Metody dokładne dla układów z macierzami rzadkimi
+5.5.3. Metody iteracyjne
+5.5.4. Metody blokowe
+6. Obliczanie wartości własnych i wektorów własnych macierzy
+6.1. Wstęp
+6.2. Pojęcia podstawowe
+6.3. Zaburzenia wartości i wektorów własnych
+6.4. Macierze o elementach rzeczywistych — metody ogólne
+6.4.1. Lokalizacja wartości własnych
+6.4.2. Znajdowanie wartości własnych przy użyciu wielomianu charakterystycznego
+6.4.3. Metoda potęgowa
+6.4.4. Algorytm QR dla macierzy Hessenberga
+6.4.5. Sprowadzanie macierzy do postaci Hessenberga
+6.4.6. Obliczanie wektorów własnych
+6.4.7. Algorytm rozkładu macierzy na iloczyn QR
+6.5. Macierze symetryczne
+6.5.1. Macierz trójdiagonalna symetryczna
+6.5.2. Sprowadzanie macierzy symetrycznej do postaci trójdiagonalnej
+6.6. Macierze wstęgowe
+7. Metody rozwiązywania zagadnień początkowych dla równań różniczkowych zwyczajnych
+7.1. Wstęp
+7.2. Metoda Eulera
+7.3. Metody różnicowe
+7.3.1. Ogólny wzór różnicowy
+7.3.2. Równanie dla błędu
+7.3.3. Stabilność i zbieżność
+7.3.4. Wyznaczanie praktyczne przydatnych wzorów różnicowych
+7.4. Metody typu Rungego-Kutty
+7.4.1. Wzór ogólny
+7.4.2. Stabilność metod Rungego-Kutty
+7.4.3. Metody rzędu czwartego
+7.4.4. Wybór kroku całkowania
+7.5. Metody ekstrapolacyjno-interpolacyjne
+7.5.1. Metody Hamminga
+7.5.2. Metoda Geara dla układów typu stiff
+8.  Metody rozwiązywania zagadnień brzegowych dla równań różniczkowych cząstkowych
+8.1. Metoda różnicowa dla równania przewodnictwa cieplnego
+8.1.1. Postawienie zagadnienia
+8.1.2. Aproksymacja różnicowa
+8.1.3. Stabilność i zbieżność
+8.1.4. Przykład obliczeniowy
+8.1.5. Schemat blokowy
+8.2. Metoda różnicowa dla równania drgań struny
+8.2.1. Postawienie zagadnienia
+8.2.2. Aproksymacja różnicowa
+8.3. Metoda różnicowa dla równania Poissona
+8.3.1. Postawienie zagadnienia
+8.3.2. Aproksymacje różnicowe równania Poissona
+8.3.3. Aproksymacja różnicowa zagadnienia Dirichleta
+8.3.4. Jednostajna zbieżność rozwiązania różnicowego
+8.4. Metoda prostych dla równania przewodnictwa cieplnego
+8.5. Metoda prostych dla równania drgań struny
+D. Metoda elementu skończonego
+D.1. Pojęcia wstępne
+D.2. Metoda elementu skończonego
