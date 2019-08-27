@@ -137,5 +137,134 @@ Celem autorów niniejszej książki jest wprowadzenie Czytelnika w dział matema
 1. Interpolacja
     * 1.1. Sformułowanie zagadnienia interpolacji
     * 1.2. Interpolacja za pomocą wielomianów
-        ** 1.2.1. Wzór interpolacyjny Lagrange’a
-        ** 1.2.2. Oszacowanie błędu wzoru interpolacyjnego
+        * 1.2.1. Wzór interpolacyjny Lagrange’a
+        * 1.2.2. Oszacowanie błędu wzoru interpolacyjnego
+        * 1.2.3. Problem optymalnego doboru węzłów interpolacji
+        * 1.2.4. Wzór interpolacyjny Newtona dla nierównych odstępów argumentu
+        * 1.2.5. Różnice progresywne i różnice wsteczne
+        * 1.2.6. Wzory interpolacyjne Newtona dla równoodległych wartości argumentu
+        * 1.2.7. Zbieżność procesów interpolacyjnych
+        * 1.2.8. Uwagi końcowe
+    * 1.3. Interpolacja za pomocą funkcji sklejanych
+        * 1.3.1. Określenie funkcji sklejanych
+        * 1.3.2. Interpolacyjne funkcje sklejane stopnia trzeciego
+2. Aproksymacja
+    * 2.1. Wstęp
+    * 2.2. Aproksymacja średniokwadratowa
+        * 2.2.1. Aproksymacja wielomianowa
+        * 2.2.2. Aproksymacja za pomocą wielomianów ortogonalnych
+        * 2.2.3. Aproksymacja trygonometryczna
+        * 2.2.4. Szybka transformacja Fouriera
+        * 2.2.5. Aproksymacja za pomocą funkcji sklejanych
+    * 2.3. Aproksymacja jednostajna
+        * 2.3.1. Metoda szeregów potęgowych
+        * 2.3.2. Przybliżenia Padego
+        * 2.3.3. Szeregi Czebyszewa
+    * 2.4. Uwagi końcowe
+3. Przybliżone rozwiązywanie równań nieliniowych i ich układów
+    * 3.1. Jedno równanie z jedną niewiadomą
+        * 3.1.1. Metoda połowienia
+        * 3.1.2. Reguła falsi i metoda siecznych
+        * 3.1.3. Metoda Newtona. Metody zmodyfikowane dla pierwiastków wielokrotnych
+    * 3.2. Metody poszukiwania zer wielomianów
+        * 3.2.1. Liczba pierwiastków rzeczywistych
+        * 3.2.2. Lokalizacja zer rzeczywistych
+        * 3.2.3. Metody przybliżonego obliczania zer rzeczywistych wielomianu
+        * 3.2.4. Lokalizacja zer zespolonych
+        * 3.2.5. Metody przybliżonego obliczania zer zespolonych wielomian
+    * 3.3. Uwagi o efektywności metod przybliżonego obliczania pierwiastków
+    * 3.4. Układy równań nieliniowych
+        * 3.4.1. Ogólne metody iteracyjne
+        * 3.4.2. Metoda Newtona
+        * 3.4.3. Metoda siecznych
+    * 3.5. Poszukiwanie minimów funkcji jednej zmiennej
+        * 3.5.1. Metody podziału
+        * 3.5.2. Metoda optymalnych podziałów
+        * 3.5.3. Metoda złotego podziału
+4. Całkowanie numeryczne
+    * 4.1. Wstęp
+        * 4.1.1. Uwagi ogólne o całkowaniu numerycznym
+        * 4.1.2. Ogólny wzór całkowania numerycznego
+    * 4.2. Kwadratury z ustalonymi węzłami
+        * 4.2.1. Kwadratury Newtona-Cotesa
+        * 4.2.2. Kwadratury złożone Newtona-Cotesa
+        * 4.2.3. Metoda Romberga
+    * 4.3. Kwadratury Gaussa i kwadratury złożone Gaussa
+        * 4.3.1. Kwadratury Gaussa
+        * 4.3.2. Kwadratury złożone Gaussa
+    * 4.4. Uwagi końcowe
+5. Rozwiązywanie układów algebraicznych równań liniowych
+    * 5.1. Wstęp
+    * 5.2. Pojęcia podstawowe
+    * 5.3. Metody dokładne
+        * 5.3.1. Analiza błędów rozwiązywania
+        * 5.3.2. Układy równań z macierzą trójkątną
+        * 5.3.3. Metoda eliminacji Gaussa
+        * 5.3.4. Metoda eliminacji Jordana
+        * 5.3.5. Układy z macierzą symetryczną. Rozkłady LDLT i LLT
+        * 5.3.6. Układy z macierzą trójdiagonalną
+        * 5.3.7. Układy równań z macierzą zbliżoną do trójdiagonalnej
+        * 5.3.8. Obliczanie wyznacznika i odwracanie macierzy
+        * 5.3.9. Iteracyjne poprawianie rozwiązania
+    * 5.4. Metody iteracyjne
+        * 5.4.1. Metoda Jacobiego
+        * 5.4.2. Metoda Gaussa-Seidla
+        * 5.4.3. Metoda Czebyszewa
+        * 5.4.4. Nakład obliczeń i testy stopu
+    * 5.5. Układy równań z macierzami rzadkimi
+        * 5.5.1. Organizacja pamięci
+        * 5.5.2. Metody dokładne dla układów z macierzami rzadkimi
+        * 5.5.3. Metody iteracyjne
+        * 5.5.4. Metody blokowe
+6. Obliczanie wartości własnych i wektorów własnych macierzy
+    * 6.1. Wstęp
+    * 6.2. Pojęcia podstawowe
+    * 6.3. Zaburzenia wartości i wektorów własnych
+    * 6.4. Macierze o elementach rzeczywistych — metody ogólne
+        * 6.4.1. Lokalizacja wartości własnych
+        * 6.4.2. Znajdowanie wartości własnych przy użyciu wielomianu charakterystycznego
+        * 6.4.3. Metoda potęgowa
+        * 6.4.4. Algorytm QR dla macierzy Hessenberga
+        * 6.4.5. Sprowadzanie macierzy do postaci Hessenberga
+        * 6.4.6. Obliczanie wektorów własnych
+        * 6.4.7. Algorytm rozkładu macierzy na iloczyn QR
+    * 6.5. Macierze symetryczne
+        * 6.5.1. Macierz trójdiagonalna symetryczna
+        * 6.5.2. Sprowadzanie macierzy symetrycznej do postaci trójdiagonalnej
+    * 6.6. Macierze wstęgowe
+7. Metody rozwiązywania zagadnień początkowych dla równań różniczkowych zwyczajnych
+    * 7.1. Wstęp
+    * 7.2. Metoda Eulera
+    * 7.3. Metody różnicowe
+        * 7.3.1. Ogólny wzór różnicowy
+        * 7.3.2. Równanie dla błędu
+        * 7.3.3. Stabilność i zbieżność
+        * 7.3.4. Wyznaczanie praktyczne przydatnych wzorów różnicowych
+    * 7.4. Metody typu Rungego-Kutty
+        * 7.4.1. Wzór ogólny
+        * 7.4.2. Stabilność metod Rungego-Kutty
+        * 7.4.3. Metody rzędu czwartego
+        * 7.4.4. Wybór kroku całkowania
+    * 7.5. Metody ekstrapolacyjno-interpolacyjne
+        * 7.5.1. Metody Hamminga
+        * 7.5.2. Metoda Geara dla układów typu stiff
+8.  Metody rozwiązywania zagadnień brzegowych dla równań różniczkowych cząstkowych
+    * 8.1. Metoda różnicowa dla równania przewodnictwa cieplnego
+        * 8.1.1. Postawienie zagadnienia
+        * 8.1.2. Aproksymacja różnicowa
+        * 8.1.3. Stabilność i zbieżność
+        * 8.1.4. Przykład obliczeniowy
+        * 8.1.5. Schemat blokowy
+    * 8.2. Metoda różnicowa dla równania drgań struny
+        * 8.2.1. Postawienie zagadnienia
+        * 8.2.2. Aproksymacja różnicowa
+    * 8.3. Metoda różnicowa dla równania Poissona
+        * 8.3.1. Postawienie zagadnienia
+        * 8.3.2. Aproksymacje różnicowe równania Poissona
+        * 8.3.3. Aproksymacja różnicowa zagadnienia Dirichleta
+        * 8.3.4. Jednostajna zbieżność rozwiązania różnicowego
+    * 8.4. Metoda prostych dla równania przewodnictwa cieplnego
+    * 8.5. Metoda prostych dla równania drgań struny
+9. Dodatek: Metoda elementu skończonego
+    * D.1. Pojęcia wstępne
+    * D.2. Metoda elementu skończonego
